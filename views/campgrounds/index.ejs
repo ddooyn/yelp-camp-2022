@@ -11,9 +11,9 @@
         <a href="/campgrounds/new">Add Campground</a>
     </div>
     <ul>
-        <% for (let campground of campgrounds){%>
+        <% for (let campground of campgrounds) { %>
         <li><a href="/campgrounds/<%= campground._id %>"><%= campground.title %></a></li>
-        <% }%>
+        <% } %>
     </ul>
 </body>
 </html>
